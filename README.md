@@ -1,2 +1,2 @@
 # raspi-gpio
-RPi.GPIO wrapper with mocks for developmennt on any platform
+RPi.GPIO and spidev wrapper with mocks for developmennt on any platform
