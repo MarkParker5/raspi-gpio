@@ -6,6 +6,10 @@ authors = ["Mark Parker <mark@parker-programs.com>"]
 license = "MIT"
 readme = "README.md"
 packages = [{include = "raspi_gpio"}]
+homepage = "https://pypi.org/project/raspi-gpio/"
+repository = "https://github.com/MarkParker5/raspi-gpio"
+documentation = "https://github.com/MarkParker5/raspi-gpio/blob/main/README.md"
+keywords = ["raspberry-pi", "gpio", "rpi", "rpi-gpio", "RPi.GPIO"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
