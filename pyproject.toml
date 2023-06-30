@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "raspi-gpio"
+version = "0.1.0"
+description = "RPi.GPIO wrapper with mocks for developmennt on any platform"
+authors = ["Mark Parker <mark@parker-programs.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "raspi_gpio"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rpi-gpio = {version = "^0.7.1", platform = "linux"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
