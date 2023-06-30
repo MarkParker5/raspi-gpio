@@ -1,6 +1,6 @@
 try:
     from RPi.GPIO import *
-    import spidev
+    from spidev import *
 except (RuntimeError, ModuleNotFoundError, ImportError):
     from .GPIO import *
     from .spidev import *
