@@ -15,7 +15,18 @@ files = [
     {file = "RPi.GPIO-0.7.1.tar.gz", hash = "sha256:cd61c4b03c37b62bba4a5acfea9862749c33c618e0295e7e90aa4713fb373b70"},
 ]
 
+[[package]]
+name = "spidev"
+version = "3.6"
+description = "Python bindings for Linux SPI access through spidev"
+optional = false
+python-versions = "*"
+files = [
+    {file = "spidev-3.6-cp39-cp39-linux_armv7l.whl", hash = "sha256:280abc00a1ef7780ef62c3f294f52a2527b6c47d8c269fea98664970bcaf6da5"},
+    {file = "spidev-3.6.tar.gz", hash = "sha256:14dbc37594a4aaef85403ab617985d3c3ef464d62bc9b769ef552db53701115b"},
+]
+
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "d3ff75f7d72d0d66af0417b510c156f29c37b5c105e62e4efea1581d8979d276"
+content-hash = "af8054b9632f044cc0a1317df8601ac3c71bb004dfa332904bd536debaed4c7a"

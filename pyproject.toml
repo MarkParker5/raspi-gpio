@@ -14,6 +14,7 @@ keywords = ["raspberry-pi", "gpio", "rpi", "rpi-gpio", "RPi.GPIO"]
 [tool.poetry.dependencies]
 python = "^3.10"
 rpi-gpio = {version = "^0.7.1", platform = "linux"}
+spidev = {version = "^3.6", platform = "linux"}
 
 [build-system]
 requires = ["poetry-core"]
