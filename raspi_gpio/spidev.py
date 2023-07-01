@@ -34,7 +34,7 @@ class SpiDev:
         pass
 
     def xfer2(self, values, speed=4096, delay=0, bits=8):
-        pass
+        return [0] * 255
 
     def xfer3(self, values, speed=4096, delay=0, bits=8):
         pass
