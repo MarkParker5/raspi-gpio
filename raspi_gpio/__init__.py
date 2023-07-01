@@ -1,7 +1,7 @@
 try:
-    from RPi.GPIO import *
-    from spidev import *
+    import RPi.GPIO as GPIO
+    from spidev import SpiDev
 except (RuntimeError, ModuleNotFoundError, ImportError):
-    from .GPIO import *
-    from .spidev import *
+    import .GPIO_mock as GPIO
+    from .spidev_mock import SpiDev
     print('Warning: RPi.GPIO cannot be imported, using mock GPIO instead.')
