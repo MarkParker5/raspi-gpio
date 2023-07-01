@@ -18,6 +18,7 @@ PUD_DOWN = 1
 RISING = 0
 FALLING = 0
 BOTH = 0
+RPI_REVISION = 0
 
 class PWM(object):
 
