@@ -75,3 +75,6 @@ def gpio_function(channel):
 
 def setwarnings(state):
     pass
+
+def pulseOut(ce_pin, value, period):
+    pass
