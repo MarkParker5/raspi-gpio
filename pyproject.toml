@@ -8,7 +8,7 @@ readme = "README.md"
 packages = [{include = "raspi_gpio"}]
 homepage = "https://pypi.org/project/raspi-gpio/"
 repository = "https://github.com/MarkParker5/raspi-gpio"
-documentation = "https://github.com/MarkParker5/raspi-gpio/blob/main/README.md"
+documentation = "https://github.com/MarkParker5/raspi-gpio/blob/master/README.md"
 keywords = ["raspberry-pi", "gpio", "rpi", "rpi-gpio", "RPi.GPIO"]
 
 [tool.poetry.dependencies]
